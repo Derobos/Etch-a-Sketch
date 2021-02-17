@@ -1,0 +1,47 @@
+body {
+    background-color: red;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    display: inline-block;
+    margin-top: 30px;
+    outline: none;
+    border: lightgrey;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#reset {
+    float: left;
+}
+
+#color {
+    float: right;
+}
+
+#displayContainer {
+    display: grid;
+    gap: 0%;
+    border: thick solid red;
+    background-color: white;
+    width: fit-content;
+    height: 80%;
+    margin: auto;
+}
+
+.canv {
+    background-color: lightgray;
+}
